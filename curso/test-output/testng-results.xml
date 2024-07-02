@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-06-25T05:18:25Z" name="Default suite" finished-at="2024-06-25T05:18:35Z" duration-ms="9711">
+  <suite started-at="2024-07-02T06:15:28Z" name="Default suite" finished-at="2024-07-02T06:15:32Z" duration-ms="3917">
     <groups>
     </groups>
-    <test started-at="2024-06-25T05:18:25Z" name="Default test" finished-at="2024-06-25T05:18:35Z" duration-ms="9711">
-      <class name="pruebaNG_Casos_de_prueba.selTest1">
-        <test-method signature="test01()[pri:0, instance:pruebaNG_Casos_de_prueba.selTest1@6f7923a5]" started-at="2024-06-24T23:18:25Z" name="test01" finished-at="2024-06-24T23:18:35Z" duration-ms="9689" status="PASS">
+    <test started-at="2024-07-02T06:15:28Z" name="Default test" finished-at="2024-07-02T06:15:32Z" duration-ms="3917">
+      <class name="pruebaNG_Casos_de_prueba.selTest">
+        <test-method signature="test01()[pri:0, instance:pruebaNG_Casos_de_prueba.selTest@8e50104]" started-at="2024-07-02T00:15:28Z" name="test01" finished-at="2024-07-02T00:15:32Z" duration-ms="3840" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test01 -->
-      </class> <!-- pruebaNG_Casos_de_prueba.selTest1 -->
+      </class> <!-- pruebaNG_Casos_de_prueba.selTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
