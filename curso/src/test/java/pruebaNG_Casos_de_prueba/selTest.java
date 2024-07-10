@@ -3,6 +3,10 @@ package pruebaNG_Casos_de_prueba;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.Test;
+
+import java.util.Iterator;
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -36,7 +40,17 @@ public class selTest {
 	  Thread.sleep(2000);
 	  selecProd.selectByVisibleText("Name (Z to A)");
 	  Thread.sleep(2000);
-	  driver.close();
+	  //driver.close();
 	  
+	  //imprimir documentos FINDELEMENTS
+	  List<WebElement> prodList =driver.findElements(By.className("inventory_item_name"));
+	  System.out.println(prodList.size()); 
+	  
+	  //String primerProd= prodList.get(0).getText();
+	  for (int i = 0; i < prodList.size(); i++) {
+		  System.out.println("El producto " + i + " lleva por nombre: "+ prodList.get(i).getText());		
+	}
+	  driver.close();
+	 
   }
 }
